@@ -1,0 +1,15 @@
+.config
+.editorconfig
+.env
+.gitattributes
+.github
+.husky
+.prettierignore
+.prettierrc
+.vscode
+CODE_OF_CONDUCT.md
+SECURITY.md
+docs/
+example/
+media/
+node_modules/
