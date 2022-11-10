@@ -17,7 +17,7 @@ In my case i have [Rancher Local Path Provisioner](https://github.com/rancher/lo
 
 ## Deploy Focalboard application with ArgoCD
 
-Install ArgoCD and download ArgoCD CLI, see [getting started section](https://argo-cd.readthedocs.io/en/stable/getting_started/).
+Install ArgoCD and ArgoCD CLI, see [getting started section](https://argo-cd.readthedocs.io/en/stable/getting_started/). After login in cli execute `app creation` with your parameters:
 
 ```sh
 argocd app create focalboard \
