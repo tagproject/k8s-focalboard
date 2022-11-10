@@ -1,6 +1,6 @@
 {
   "name": "k8s-focalboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deploy Focalboard with ArgoCD and Kustomization",
   "license": "MIT",
   "homepage": "https://github.com/tagproject/k8s-focalboard#readme",
