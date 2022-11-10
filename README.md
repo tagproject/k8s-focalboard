@@ -36,7 +36,7 @@ argocd app create focalboard \
 
 </details>
 
-Get `focalboard-frontend` `EXTERNAL-IP` and open Focalboard UI with you IP `http://192.168.0.x:80`:
+Get `focalboard-app` `EXTERNAL-IP` and open Focalboard UI with you IP `http://192.168.0.x:80`:
 
 ```sh
 kubectl get svc/focalboard-app -n focalboard
