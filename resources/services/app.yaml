@@ -1,0 +1,16 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app
+  labels:
+    io.focalboard.service: app
+spec:
+  type: LoadBalancer
+  selector:
+    io.focalboard.service: app
+  ports:
+    - name: app
+      port: 80
+      targetPort: 8000
+      protocol: TCP
